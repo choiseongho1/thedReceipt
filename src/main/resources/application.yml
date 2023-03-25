@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+  profiles:
+    active: local
+
+  datasource:
+    driver-class-name:
+    url:
+    username:
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  output:
+    ansi:
+      enabled: always
